@@ -28,5 +28,5 @@ TBD
 2. Unzip folder `swapi-demo-master`
 3. Open command line
 4. Proceed to the `swapi-demo-master` folder using `cd .....\swapi-demo-master`  
-5. Start test using command `mvn clean test -DsuiteXmlFile=test.xml`
+5. Start test using command `mvn clean test -DsuiteXmlFile=testng.xml`
 6. After test finished, generate the report using command `allure serve .....\swapi-demo-master\target\allure-results`
