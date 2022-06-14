@@ -15,7 +15,7 @@ public class StarshipContractTests {
 
     @Test(testName = "Validate GET /starships/{id} schema")
     public void testStarshipByIdSchema() {
-        int shipId = RandomUtils.nextInt(1, 10);
+        int shipId = RandomUtils.nextInt(1, 13);
         starshipServiceApiManager.validateStarshipByIdSchema(9);
     }
 }
